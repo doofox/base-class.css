@@ -2,14 +2,14 @@
   "name": "@doofox/base-class.css",
   "version": "1.0.1",
   "description": "A Common CSS Attribute Encapsulation",
-  "main": "bacs-class.css",
-  "style": "bacs-class.css",
+  "main": "base-class.css",
+  "style": "base-class.css",
   "files": [
     "LICENSE.md",
-    "bacs-class.css",
-    "bacs-class.scss"
+    "base-class.css",
+    "base-class.scss"
   ],
-  "repository": "doofox/bacs-class.css",
+  "repository": "doofox/base-class.css",
   "license": "MIT",
   "bugs": "https://github.com/doofox/base-class.css/issues",
   "homepage": "https://github.com/doofox/base-class.css"
