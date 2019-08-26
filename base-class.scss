@@ -1,0 +1,128 @@
+/*! base-class.css v1.0.0 | MIT License | https://github.com/doofox/base-class.css */
+@charset "utf-8";
+$base-class-prefix: ''!default;
+
+/**! Flex */
+.#{$base-class-prefix}f {
+	display: flex;
+}
+
+.#{$base-class-prefix}f1 {
+	flex: 1;
+}
+
+.#{$base-class-prefix}f-ac {
+	display: flex;
+	align-items: center;
+}
+
+.#{$base-class-prefix}f-afe {
+	display: flex;
+	align-items: flex-end;
+}
+
+.#{$base-class-prefix}f-jc {
+	display: flex;
+	justify-content: center;
+}
+
+.#{$base-class-prefix}f-js {
+	display: flex;
+	justify-content: space-between;
+}
+
+.#{$base-class-prefix}f-acjc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.#{$base-class-prefix}f-afejc {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.#{$base-class-prefix}f-w {
+	flex-wrap: wrap;
+}
+
+/**! Position */
+.#{$base-class-prefix}p-r{
+    position: relative;
+}
+
+.#{$base-class-prefix}p-a{
+    position: absolute;
+}
+
+.#{$base-class-prefix}p-f{
+    position: fixed;
+}
+
+.#{$base-class-prefix}p-full{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/**! Color **/
+.#{$base-class-prefix}gray {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+}
+
+
+/**! Text **/
+.#{$base-class-prefix}t-c {
+	text-align: center;
+}
+.#{$base-class-prefix}t-l {
+	text-align: left;
+}
+.#{$base-class-prefix}t-r {
+	text-align: right;
+}
+
+/**! Visable **/
+[#{$base-class-prefix}hidden] {
+	display: none;
+}
+
+.#{$base-class-prefix}hide {
+	opacity: 0;
+	visibility: hidden;
+}
+.#{$base-class-prefix}show {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/**! Other **/
+.#{$base-class-prefix}clearfix {
+	&:after {
+		content: ' ';
+		display: table;
+		clear: both;
+	}
+}
+.#{$base-class-prefix}bg-cover {
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.#{$base-class-prefix}block {
+	display: block;
+	width: 100%;
+}

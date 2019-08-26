@@ -1,0 +1,16 @@
+{
+  "name": "@doofox/base-class.css",
+  "version": "1.0.0",
+  "description": "A Common CSS Attribute Encapsulation",
+  "main": "bacs-class.css",
+  "style": "bacs-class.css",
+  "files": [
+    "LICENSE.md",
+    "bacs-class.css",
+    "bacs-class.scss"
+  ],
+  "repository": "doofox/bacs-class.css",
+  "license": "MIT",
+  "bugs": "https://github.com/doofox/base-class.css/issues",
+  "homepage": "https://github.com/doofox/base-class.css"
+}
