@@ -153,7 +153,25 @@
   background-repeat: no-repeat;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
+.overflow-y {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.overflow-x {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
 .block {
   display: block;
   width: 100%;
+}
+
+.iblock {
+  display: inline-block;
 }

@@ -122,7 +122,21 @@ $base-class-prefix: ''!default;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.#{$base-class-prefix}overflow {
+	overflow: hidden;
+}
+.#{$base-class-prefix}overflow-y {
+	overflow: hidden;
+	overflow-y: auto;
+}
+.#{$base-class-prefix}overflow-x {
+	overflow: hidden;
+	overflow-x: auto;
+}
 .#{$base-class-prefix}block {
 	display: block;
 	width: 100%;
+}
+.#{$base-class-prefix}iblock {
+	display: inline-block;
 }
