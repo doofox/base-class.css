@@ -123,6 +123,38 @@
   text-align: right;
 }
 
+.t-b {
+  font-weight: bold;
+}
+
+.t-b-100 {
+  font-weight: 100;
+}
+
+.t-b-200 {
+  font-weight: 200;
+}
+
+.t-b-300 {
+  font-weight: 300;
+}
+
+.t-b-400 {
+  font-weight: 400;
+}
+
+.t-b-500 {
+  font-weight: 500;
+}
+
+.t-b-600 {
+  font-weight: 600;
+}
+
+.t-b-700 {
+  font-weight: 700;
+}
+
 /**! Visable **/
 [hidden] {
   display: none;
@@ -175,3 +207,5 @@
 .iblock {
   display: inline-block;
 }
+
+/*# sourceMappingURL=base-class.css.map */

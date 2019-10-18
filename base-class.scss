@@ -91,6 +91,14 @@ $base-class-prefix: ''!default;
 .#{$base-class-prefix}t-r {
 	text-align: right;
 }
+.#{$base-class-prefix}t-b {
+	font-weight: bold;
+}
+@for $weight from 1 through 7 {
+	.#{$base-class-prefix}t-b-#{$weight}00 {
+		font-weight: #{$weight * 100};
+	}
+}
 
 /**! Visable **/
 [#{$base-class-prefix}hidden] {
