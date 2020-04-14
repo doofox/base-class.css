@@ -151,5 +151,4 @@ $base-class-prefix: ''!default;
 .#{$base-class-prefix}untouch {
 	user-select: none;
 	pointer-events: none;
-	z-index: -1;
 }
