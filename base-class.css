@@ -208,4 +208,13 @@
   display: inline-block;
 }
 
+.untouch {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  z-index: -1;
+}
+
 /*# sourceMappingURL=base-class.css.map */
