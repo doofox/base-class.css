@@ -21,6 +21,15 @@
           align-items: center;
 }
 
+.f-afs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .f-afe {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,13 +179,22 @@
   visibility: visible;
 }
 
-/**! Other **/
+/**! Float **/
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
 .clearfix:after {
   content: ' ';
   display: table;
   clear: both;
 }
 
+/**! Other **/
 .bg-cover {
   height: 100%;
   width: 100%;

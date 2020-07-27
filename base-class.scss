@@ -16,6 +16,11 @@ $base-class-prefix: ''!default;
 	align-items: center;
 }
 
+.#{$base-class-prefix}f-afs {
+	display: flex;
+	align-items: flex-start;
+}
+
 .#{$base-class-prefix}f-afe {
 	display: flex;
 	align-items: flex-end;
@@ -114,8 +119,13 @@ $base-class-prefix: ''!default;
 	visibility: visible;
 }
 
-
-/**! Other **/
+/**! Float **/
+.#{$base-class-prefix}f-l {
+	float: left;
+}
+.#{$base-class-prefix}f-r {
+	float: right;
+}
 .#{$base-class-prefix}clearfix {
 	&:after {
 		content: ' ';
@@ -123,6 +133,8 @@ $base-class-prefix: ''!default;
 		clear: both;
 	}
 }
+
+/**! Other **/
 .#{$base-class-prefix}bg-cover {
 	height: 100%;
 	width: 100%;
