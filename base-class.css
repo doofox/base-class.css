@@ -1,16 +1,129 @@
-/*! base-class.css v1.0.0 | MIT License | https://github.com/doofox/base-class.css */
+/*! base-class.css v1.0.8 | MIT License | https://github.com/doofox/base-class.css */
 /**! Flex */
 .f {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-}
+  display: flex; }
 
 .f1 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
-          flex: 1;
-}
+          flex: 1; }
+
+.f2 {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2; }
+
+.f3 {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3; }
+
+.f4 {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4; }
+
+.f5 {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5; }
+
+.f6 {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6; }
+
+.f7 {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7; }
+
+.f8 {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8; }
+
+.f9 {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9; }
+
+.f10 {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10; }
+
+.f11 {
+  -webkit-box-flex: 11;
+      -ms-flex: 11;
+          flex: 11; }
+
+.f12 {
+  -webkit-box-flex: 12;
+      -ms-flex: 12;
+          flex: 12; }
+
+.f13 {
+  -webkit-box-flex: 13;
+      -ms-flex: 13;
+          flex: 13; }
+
+.f14 {
+  -webkit-box-flex: 14;
+      -ms-flex: 14;
+          flex: 14; }
+
+.f15 {
+  -webkit-box-flex: 15;
+      -ms-flex: 15;
+          flex: 15; }
+
+.f16 {
+  -webkit-box-flex: 16;
+      -ms-flex: 16;
+          flex: 16; }
+
+.f17 {
+  -webkit-box-flex: 17;
+      -ms-flex: 17;
+          flex: 17; }
+
+.f18 {
+  -webkit-box-flex: 18;
+      -ms-flex: 18;
+          flex: 18; }
+
+.f19 {
+  -webkit-box-flex: 19;
+      -ms-flex: 19;
+          flex: 19; }
+
+.f20 {
+  -webkit-box-flex: 20;
+      -ms-flex: 20;
+          flex: 20; }
+
+.f21 {
+  -webkit-box-flex: 21;
+      -ms-flex: 21;
+          flex: 21; }
+
+.f22 {
+  -webkit-box-flex: 22;
+      -ms-flex: 22;
+          flex: 22; }
+
+.f23 {
+  -webkit-box-flex: 23;
+      -ms-flex: 23;
+          flex: 23; }
+
+.f24 {
+  -webkit-box-flex: 24;
+      -ms-flex: 24;
+          flex: 24; }
 
 .f-ac {
   display: -webkit-box;
@@ -18,8 +131,7 @@
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-}
+          align-items: center; }
 
 .f-afs {
   display: -webkit-box;
@@ -27,8 +139,7 @@
   display: flex;
   -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: flex-start;
-}
+          align-items: flex-start; }
 
 .f-afe {
   display: -webkit-box;
@@ -36,8 +147,7 @@
   display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
-          align-items: flex-end;
-}
+          align-items: flex-end; }
 
 .f-jc {
   display: -webkit-box;
@@ -45,8 +155,7 @@
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-}
+          justify-content: center; }
 
 .f-js {
   display: -webkit-box;
@@ -54,8 +163,7 @@
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+          justify-content: space-between; }
 
 .f-acjc {
   display: -webkit-box;
@@ -66,8 +174,7 @@
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-}
+          justify-content: center; }
 
 .f-afejc {
   display: -webkit-box;
@@ -78,26 +185,21 @@
           align-items: flex-end;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-}
+          justify-content: center; }
 
 .f-w {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
+      flex-wrap: wrap; }
 
 /**! Position */
 .p-r {
-  position: relative;
-}
+  position: relative; }
 
 .p-a {
-  position: absolute;
-}
+  position: absolute; }
 
 .p-f {
-  position: fixed;
-}
+  position: fixed; }
 
 .p-full {
   top: 0;
@@ -105,8 +207,7 @@
   left: 0;
   right: 0;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 /**! Color **/
 .gray {
@@ -116,83 +217,65 @@
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-filter: gray;
-          filter: gray;
-}
+          filter: gray; }
 
 /**! Text **/
 .t-c {
-  text-align: center;
-}
+  text-align: center; }
 
 .t-l {
-  text-align: left;
-}
+  text-align: left; }
 
 .t-r {
-  text-align: right;
-}
+  text-align: right; }
 
 .t-b {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .t-b-100 {
-  font-weight: 100;
-}
+  font-weight: 100; }
 
 .t-b-200 {
-  font-weight: 200;
-}
+  font-weight: 200; }
 
 .t-b-300 {
-  font-weight: 300;
-}
+  font-weight: 300; }
 
 .t-b-400 {
-  font-weight: 400;
-}
+  font-weight: 400; }
 
 .t-b-500 {
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 .t-b-600 {
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 .t-b-700 {
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 /**! Visable **/
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 .hide {
   opacity: 0;
-  visibility: hidden;
-}
+  visibility: hidden; }
 
 .show {
   opacity: 1;
-  visibility: visible;
-}
+  visibility: visible; }
 
 /**! Float **/
 .f-l {
-  float: left;
-}
+  float: left; }
 
 .f-r {
-  float: right;
-}
+  float: right; }
 
 .clearfix:after {
   content: ' ';
   display: table;
-  clear: both;
-}
+  clear: both; }
 
 /**! Other **/
 .bg-cover {
@@ -200,38 +283,31 @@
   width: 100%;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
 
 .overflow {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .overflow-y {
   overflow: hidden;
-  overflow-y: auto;
-}
+  overflow-y: auto; }
 
 .overflow-x {
   overflow: hidden;
-  overflow-x: auto;
-}
+  overflow-x: auto; }
 
 .block {
   display: block;
-  width: 100%;
-}
+  width: 100%; }
 
 .iblock {
-  display: inline-block;
-}
+  display: inline-block; }
 
 .untouch {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  pointer-events: none;
-}
+  pointer-events: none; }
 
 /*# sourceMappingURL=base-class.css.map */

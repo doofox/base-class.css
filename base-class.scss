@@ -1,4 +1,4 @@
-/*! base-class.css v1.0.0 | MIT License | https://github.com/doofox/base-class.css */
+/*! base-class.css v1.0.8 | MIT License | https://github.com/doofox/base-class.css */
 @charset "utf-8";
 $base-class-prefix: ''!default;
 
@@ -7,8 +7,10 @@ $base-class-prefix: ''!default;
 	display: flex;
 }
 
-.#{$base-class-prefix}f1 {
-	flex: 1;
+@for $i from 1 through 24 { 
+	.#{$base-class-prefix}f#{$i}{ 
+		flex: $i;
+	 }
 }
 
 .#{$base-class-prefix}f-ac {
