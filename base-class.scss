@@ -38,6 +38,12 @@ $base-class-prefix: ''!default;
 	justify-content: space-between;
 }
 
+.#{$base-class-prefix}f-acjs {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .#{$base-class-prefix}f-acjc {
 	display: flex;
 	align-items: center;
@@ -74,6 +80,16 @@ $base-class-prefix: ''!default;
     right: 0;
     width: 100%;
     height: 100%;
+}
+
+@for $i from 1 through 10 { 
+	.#{$base-class-prefix}z#{$i}{ 
+		z-index: $i;
+	 }
+}
+
+.zmax{
+	z-index: 2147483647;
 }
 
 
@@ -165,4 +181,19 @@ $base-class-prefix: ''!default;
 .#{$base-class-prefix}untouch {
 	user-select: none;
 	pointer-events: none;
+}
+.#{$base-class-prefix}touch {
+	user-select: all;
+	pointer-events: all;
+}
+.#{$base-class-prefix}cur-p {
+	cursor: pointer;
+}
+.#{$base-class-prefix}cur-d {
+	cursor: default;
+}
+@for $width from 0 through 20 {
+	.#{$base-class-prefix}w-#{$width * 5} {
+		width: #{$width * 5%};
+	}
 }

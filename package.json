@@ -1,6 +1,6 @@
 {
   "name": "@doofox/base-class.css",
-  "version": "1.0.8",
+  "version": "1.0.13",
   "description": "A Common CSS Attribute Encapsulation",
   "main": "base-class.css",
   "style": "base-class.css",
